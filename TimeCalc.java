@@ -9,7 +9,7 @@ public class TimeCalc {
         int newHours = totalHours % 24;
         int newMinutes = totalMinutes - (totalHours * 60);
 
- 		System.out.println(newHours + ":" + String.format("%02d", newMinutes));
+ 		System.out.println(String.format("%02d", newHours) + ":" + String.format("%02d", newMinutes));
 
     }
 }
