@@ -7,7 +7,7 @@ public class Cheers {
 
                 for (int i = 0; i < word.length(); i++) {
                         char letter = word.charAt(i);
-                        String a = "a";
+                        String a = "a ";
                         if (useAn.indexOf(letter) != -1) {
                         a = "an";
                         }
