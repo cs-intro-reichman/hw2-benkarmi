@@ -12,9 +12,11 @@ public  class  TestRandom {
 				smaller++;
 			};
 		}
-		double ratio = (double)bigger / (double)smaller;
-			System.out.println("> 0.5:  " + bigger + " times");
-			System.out.println("<= 0.5:  " + smaller + " times");
+		System.out.println("> 0.5:  " + bigger + " times");
+		System.out.println("<= 0.5:  " + smaller + " times");
+		if (smaller != 0) {
+			double ratio = (double)bigger / (double)smaller;
 			System.err.println("Ratio:  " + ratio);
-}
+		}
+	}
 }
